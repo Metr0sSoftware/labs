@@ -5,11 +5,14 @@ using namespace std;
 int main()
 {
     srand(time(NULL));
+    
     int rows;
     int cols;
     int max = 0;
     int max_index = 0; 
+    
     cin >> rows;
+    
     cols = rows;  
     int array[rows][cols]; 
 
@@ -47,5 +50,6 @@ int main()
         }
         break;
     }    
+    
     cout << endl << max;
 }
