@@ -10,9 +10,7 @@ int main()
     int cols;
     int max = 0;
     int max_index = 0; 
-    
     cin >> rows;
-    
     cols = rows;  
     int array[rows][cols]; 
 
